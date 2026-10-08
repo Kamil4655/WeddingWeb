@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    width: 100%;
+    height: 180vh;
+    background-image: url(img/mainPicture.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+
+section img {
+    width: 100%;
+    height: 800px;
+}
+
+
+.mainDiv {
+    width: 680px;
+    height: 892px;
+    display: flex;
+    gap: 20px;
+    position: relative;
+    top: 300px;
+    left: 100px;
+}
+
+.mainDiv .boxOne {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.boxOne .boxDivOne {
+    width: 100%;
+    height: 364.4px;
+    background-color: lime;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    background-color: #e3a1b2;
+}
+
+.boxOne .boxDivTwo {
+    width: 100%;
+    height: 350.4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    background-color: #d4b6be;
+}
+
+.boxOne .boxDivThree {
+    width: 100%;
+    height: 176.4px;
+}
+
+.mainDiv .boxTwo {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    position: relative;
+    top: 150px;
+}
+
+.boxTwo .boxTwoChildOne {
+    width: 100%;
+    height: 176.4px;
+}
+
+.boxTwo .boxTwoChildTwo {
+    width: 100%;
+    height: 364.4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    background-color: #d4b6be;
+}
+
+.boxTwo .boxTwoChildThree {
+    width: 100%;
+    height: 350.4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    background-color: #e3a1b2;
+}
+
+.svgdiv {
+    width: 76px;
+    height: 76px;
+    border-radius: 50%;
+    background-color: #ffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+i {
+    font-size: 44px;
+    color: pink;
+}
+
+h4 {
+    font-size: 24px;
+    font-family: Roboto, sans-serif;
+    color: white;
+}
+
+p {
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-style: italic;
+    color: white;
+    padding: 1 0px;
+}
+
+a {
+    font-size: 16px;
+
+}
+
+@media(max-width:768px) {
+    
+}
